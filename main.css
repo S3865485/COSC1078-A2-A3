@@ -1,0 +1,274 @@
+	html, body
+	{
+		height: 100%;
+        background-image:url(background.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+	}
+	
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		font-family: 'Times New Roman', sans-serif;
+		font-size: 12pt;
+		font-weight: 400;
+        color: #000000;
+	}
+	
+    h1
+    {
+    }
+    h2
+	{
+		margin: 0;
+	}
+    h3{
+    color: #b279fc;
+    padding-left: 50px;
+    font-size: 20px;
+        font-size: 30;
+    }
+    #three{
+        font-size: 50px;
+        align-content: center;
+        color: darkorchid;
+    }
+    h4
+    {
+        color: #606160;;
+        padding-left:50px;
+        margin-bottom: 5px;
+        font-size: 26;
+    }
+	
+	p
+	{
+        text-align: left;
+        padding:10px 75px 20px 50px;
+		margin-top: 0;
+	}
+	
+	
+	p
+	{
+		line-height: 180%;
+	}
+	
+	a
+	{
+		color: #0000FF;
+	}
+    div{
+        margin: 0px;
+    }   
+
+	.container
+	{
+		margin: auto;
+		width: 1200px;
+        background-color: ghostwhite;
+	}
+
+    .sticky 
+    {
+        position: fixed;
+        top: 0;
+        left: 75px;
+        width: 100%;
+    }
+    .sticky .title h2
+    {
+        padding-top: 100px;
+    }
+
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 1050px;
+        margin-left: 50px;
+        margin-bottom: 25px;
+    }
+
+    td, th{
+        border: 1px solid black;
+        text-align: left;
+        padding: 5px; 
+        width:70px;
+        vertical-align: top;
+    }
+
+    tr:nth-child() {
+    }
+
+    .emp{
+        background-color: grey;
+    }
+
+    table li{
+        text-align: left;
+        padding: 2px;
+    }
+
+    .table1 td{
+        border:none;
+        height: 70px;
+    }
+
+
+    .Table td{
+        border:none;
+        width:auto;
+    }
+
+
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+	.title
+	{
+	}
+    .title h2{
+        padding: 80px 0px  20px 0px;
+        color: blueviolet;
+        background-color: ghostwhite;
+        font-size: 2.7em;
+        text-align: center;
+        border-left: 2px solid darkgrey;
+        border-right: 2px solid darkgrey;
+    }
+
+    .title h4{
+        padding: 10px 0px  20px 0px;
+        margin: 10px;
+        color: limegreen;
+        background-color: ghostwhite;
+        font-size: 2.7em;
+        text-align: center;
+    }
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header-wrapper
+	{
+		overflow:hidden;
+        background-color: transparent;
+        text-align: left;
+        background-image: url(logo.png);
+        background-repeat: no-repeat;
+        padding-bottom: 150px;
+        width: 1250px;
+	}
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+	#menu
+	{
+        padding-top: 15px;
+        padding-bottom: 2px;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        background-color: white;
+        border: 2px solid darkgrey;
+        width:1196px;
+	}
+	
+	#menu ul
+	{
+		text-align: center;
+	}
+	
+	#menu li
+	{
+		display: inline-block;
+	}
+	
+	#menu li a, #menu li span
+	{
+		display: inline-block;
+		margin-left: 0.50em;
+		padding: 1em 1em;
+		letter-spacing: 0.20em;
+		text-decoration: none;
+		font-size: 0.5m;
+		font-weight: 600;
+		text-transform: uppercase;
+		outline: 0;
+		color: black;
+	}
+	
+	#menu li:hover a
+	{
+        border: 1px solid black;
+        border-radius: 20px;
+	}
+	
+	#menu .current_page_item a
+	{
+		border: 1px solid black;
+		border-radius: 6px;
+	}
+	
+
+/*********************************************************************************/
+/* Wrapper                                                                       */
+/*********************************************************************************/
+
+	#wrapper1
+	{
+        padding:10px;
+	}
+
+	#wrapper3
+	{
+        margin-top: 0px;
+		overflow: hidden;
+		padding: 0px;
+        border-bottom: 2px solid darkgrey;
+        border-left: 2px solid darkgrey;
+        border-right: 2px solid darkgrey;
+        border-top:0px;
+	}
+    #wrapper3 a
+    {
+        padding-left: 50px;
+    }
+    #wrapper3 img{
+        padding-left: 50px;
+    }
+    #wrapper3 li{
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+
+    #wrapper4
+    {
+        margin-top: 0px;
+		overflow: hidden;
+        border-bottom: 2px solid darkgrey;
+        border-left: 2px solid darkgrey;
+        border-right: 2px solid darkgrey;
+        border-top:0px;
+    }
+    #wrapper4 li{
+        padding-left: 50px;
+    }
+    #wrapper4 a{
+        padding-left: 50px;
+    }
+	
+/* Footer*/
+
+
+	#footer
+	{
+		padding: 8em 0em 5em 0em;
+		text-align: center;
+        background: lightgrey;
+	}
